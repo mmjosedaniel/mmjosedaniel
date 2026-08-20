@@ -34,10 +34,13 @@ manual validation of key and edge-case flows.
 **Completed portfolio MVP · 2026**
 
 VoxLeaf is a privacy-first Windows desktop EPUB reader with local Spanish and
-English text-to-speech. Built with Tauri, React, TypeScript, Rust, and Python,
-it keeps books and generated speech on the user's computer while providing a
-reflowable reader, synchronized narration, typed contracts, bounded processing,
-automated tests, and documented handling of untrusted EPUB input.
+English text-to-speech. Developed end-to-end through a Codex-centered agentic
+workflow, its implementation spans Tauri, React, TypeScript, Rust, and Python;
+Tauri and Rust describe the repository architecture, not technologies I claim as
+independent proficiencies. It keeps books and generated speech on the user's
+computer while providing a reflowable reader, synchronized narration, typed
+contracts, bounded processing, automated tests, and documented handling of
+untrusted EPUB input.
 
 [View the source](https://github.com/mmjosedaniel/voxleaf) ·
 [Watch the demo](https://www.youtube.com/watch?v=2CU36tmh7Fc)
@@ -65,4 +68,4 @@ decisions, and CI-backed verification.
 ## Core technologies
 
 React · TypeScript · JavaScript · Node.js · NestJS · GraphQL · PostgreSQL ·
-AWS · GCP · Tauri · Rust · Python
+AWS · GCP · Python
