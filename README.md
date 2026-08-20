@@ -10,14 +10,20 @@
 
 # Hi, I'm José Daniel Martínez Moná
 
-I'm a frontend-focused full-stack developer with seven years of experience
-building web applications and cloud services. I specialize in React,
-TypeScript, and Node.js, with additional experience in automated testing,
-accessibility, performance, AWS, and GCP.
+I'm a Full-Stack & Frontend Developer and Agentic Software Engineer with 7 years
+of experience building web applications with React, TypeScript, JavaScript,
+Node.js, and NestJS.
 
-I enjoy turning product requirements into maintainable software and currently
-focus on AI-assisted engineering and agentic programming while retaining
-responsibility for architecture, validation, and delivery decisions.
+My strengths include reusable and accessible interfaces, complex forms and
+validation, state management, API integration, performance optimization,
+automated testing, debugging, and translating product requirements into
+maintainable software across privacy, banking, logistics, insurance, and
+agriculture.
+
+I use AI-native and agentic engineering workflows with OpenAI Codex, Claude Code,
+and Gemini. I structure requirements and codebase context for reliable output and
+retain ownership through architecture review, diff review, automated tests, and
+manual validation of key and edge-case flows.
 
 [LinkedIn](https://www.linkedin.com/in/mmjosedaniel) · Based in Armenia, Colombia
 
@@ -28,10 +34,13 @@ responsibility for architecture, validation, and delivery decisions.
 **Completed portfolio MVP · 2026**
 
 VoxLeaf is a privacy-first Windows desktop EPUB reader with local Spanish and
-English text-to-speech. Built with Tauri, React, TypeScript, Rust, and Python,
-it keeps books and generated speech on the user's computer while providing a
-reflowable reader, synchronized narration, typed contracts, bounded processing,
-automated tests, and documented handling of untrusted EPUB input.
+English text-to-speech. Developed end-to-end through a Codex-centered agentic
+workflow, its implementation spans Tauri, React, TypeScript, Rust, and Python;
+Tauri and Rust describe the repository architecture, not technologies I claim as
+independent proficiencies. It keeps books and generated speech on the user's
+computer while providing a reflowable reader, synchronized narration, typed
+contracts, bounded processing, automated tests, and documented handling of
+untrusted EPUB input.
 
 [View the source](https://github.com/mmjosedaniel/voxleaf) ·
 [Watch the demo](https://www.youtube.com/watch?v=2CU36tmh7Fc)
@@ -59,4 +68,4 @@ decisions, and CI-backed verification.
 ## Core technologies
 
 React · TypeScript · JavaScript · Node.js · NestJS · GraphQL · PostgreSQL ·
-AWS · GCP · Tauri · Rust · Python
+AWS · GCP · Python
