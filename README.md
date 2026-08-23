@@ -10,20 +10,20 @@
 
 # Hi, I'm José Daniel Martínez Moná
 
-I'm a Full-Stack & Frontend Developer and Agentic Software Engineer with 7 years
-of experience building web applications with React, TypeScript, JavaScript,
-Node.js, and NestJS.
+The ground is shifting. AI is changing not only what we build, but how we build
+it, and developers have to change with it.
 
-My strengths include reusable and accessible interfaces, complex forms and
-validation, state management, API integration, performance optimization,
-automated testing, debugging, and translating product requirements into
-maintainable software across privacy, banking, logistics, insurance, and
-agriculture.
+This portfolio is a record of my own evolution: seven years of frontend and
+full-stack development and, more recently, a transition into AI-assisted and
+agentic software engineering. I have worked with coding assistants for more than
+a year and have spent the past few months studying agentic programming more
+deliberately.
 
-I use AI-native and agentic engineering workflows with OpenAI Codex, Claude Code,
-and Gemini. I structure requirements and codebase context for reliable output and
-retain ownership through architecture review, diff review, automated tests, and
-manual validation of key and edge-case flows.
+For me, working with coding agents is less about generating code and more about
+managing risk and maintaining software quality. That means providing the right
+context, setting clear boundaries, reviewing decisions and changes, testing real
+behavior, and remaining accountable for the result. The projects below are where
+I am putting that approach into practice.
 
 [LinkedIn](https://www.linkedin.com/in/mmjosedaniel) · Based in Armenia, Colombia
 
@@ -31,16 +31,19 @@ manual validation of key and edge-case flows.
 
 ### VoxLeaf
 
-**Completed portfolio MVP · 2026**
+**Local/portfolio MVP (v0.1.0) · 2026**
 
-VoxLeaf is a privacy-first Windows desktop EPUB reader with local Spanish and
-English text-to-speech. Developed end-to-end through a Codex-centered agentic
-workflow, its implementation spans Tauri, React, TypeScript, Rust, and Python;
-Tauri and Rust describe the repository architecture, not technologies I claim as
-independent proficiencies. It keeps books and generated speech on the user's
-computer while providing a reflowable reader, synchronized narration, typed
-contracts, bounded processing, automated tests, and documented handling of
-untrusted EPUB input.
+VoxLeaf is an AI-powered, privacy-first Windows book reader that opens EPUB
+files and reads them aloud in Spanish or English. Its multi-model TTS
+implementation includes bundled Piper CPU voices, the optional Chatterbox GPU
+model on compatible hardware, and development-only Qwen3-TTS profiles. Books,
+inference, and generated speech stay on the user's computer, with audio retained
+only in bounded memory.
+
+Developed end to end through a Codex-centered agentic workflow, VoxLeaf combines
+Tauri, React, TypeScript, Rust, and Python with secure EPUB ingestion, a
+reflowable reader, synchronized narration, cancellable generation, typed
+cross-process contracts, automated testing, and Windows packaging.
 
 [View the source](https://github.com/mmjosedaniel/voxleaf) ·
 [Watch the demo](https://www.youtube.com/watch?v=2CU36tmh7Fc)
@@ -55,17 +58,45 @@ untrusted EPUB input.
 
 ### Rick and Morty Explorer
 
-**In active development · 2026**
+**Completed 0-to-1 full-stack portfolio project · 2026**
 
-Rick and Morty Explorer is a full-stack character browser built with React,
-TypeScript, GraphQL, Node.js, PostgreSQL, and Redis. The project combines a
-responsive interface with typed GraphQL operations, deterministic data import,
-persistence, bounded caching, automated tests, documented architecture
-decisions, and CI-backed verification.
+Rick and Morty Explorer was built to demonstrate how agentic programming can
+take a full-stack application from requirements and architecture to a verified
+release candidate. The product includes character search and detail views,
+favorites, comments, deterministic data import, PostgreSQL persistence, bounded
+Redis caching, typed GraphQL operations, responsive states, and CI-backed
+verification.
+
+The repository also serves as an agentic software engineering harness. It turns
+requirements into traceable work through documentation maps, ADRs, task graphs
+and ExecPlans, project-scoped agent roles and skills, write leases,
+milestone-slice TDD with separate test and implementation ownership, and
+evidence-backed acceptance. The application stack includes React, TypeScript,
+TanStack Query, Tailwind CSS, Vite, Node.js, Express, GraphQL Yoga, PostgreSQL,
+Redis, Docker Compose, Vitest, Playwright, and GitHub Actions.
 
 [View the source](https://github.com/mmjosedaniel/rick-and-morty-explorer)
+
+### A11y Evidence Lab
+
+**Concept and feasibility research · 2026**
+
+A11y Evidence Lab is a planned accessibility analysis application for turning
+deterministic browser findings into traceable, guidance-backed remediation
+decisions. It is designed around cited explanations, explicit confidence and
+manual checks, human review, and before-and-after evidence—supporting
+accessibility investigation without claiming certification or legal compliance.
+
+The engineering concept explores an evidence-centered RAG workflow with
+LangChain for retrieval and model integration, LangGraph for stateful review and
+recovery paths, and LangSmith for tracing, evaluation datasets, and regression
+analysis. The repository currently contains product planning and local-MVP
+feasibility research; implementation has not started.
+
+[View the source](https://github.com/mmjosedaniel/a11y-evidence-lab)
 
 ## Core technologies
 
 React · TypeScript · JavaScript · Node.js · NestJS · GraphQL · PostgreSQL ·
-AWS · GCP · Python
+Redis · TanStack Query · Tauri · Rust · Docker · Vitest · Playwright · AWS · GCP ·
+Python
